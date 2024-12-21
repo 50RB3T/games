@@ -4,115 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games</title>
+    <link rel="icon" type="image/x-icon" href="/icon.jpg">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
-            padding: 0;
             background-color: #f0f0f0;
         }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 100px);
+            grid-template-rows: repeat(4, 100px);
+            gap: 10px;
         }
-
-        h1 {
-            margin: 0;
-        }
-
-        nav {
-            background-color: #eee;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        li {
-            display: inline-block;
-            margin: 0 10px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #333;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        .container {
+        .button {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
-        }
-
-        .game-card {
-            width: 200px;
-            height: 200px;
-            margin: 10px;
-            background-color: #fff;
-            border: 1px solid #ddd;
+            align-items: center;
+            background-color: #007bff;
+            color: white;
+            border: none;
             border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            text-align: center;
-            position: relative;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            height: 100%; /* Make the button fill the grid cell */
+            width: 100%; /* Make the button fill the grid cell */
         }
-
-        .game-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .game-card .title {
-            position: absolute;
-            bottom: 1 ```html
-            0;
-            left: 0;
-            right: 0;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            padding: 5px;
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Gahzly Play</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <div class="container">
-            <div class="game-card">
-                <img src="path/to/image1.jpg" alt="Game 1">
-                <div class="title">Game Title 1</div>
-            </div>
-            <div class="game-card">
-                <img src="path/to/image2.jpg" alt="Game 2">
-                <div class="title">Game Title 2</div>
-            </div>
-            <div class="game-card">
-                <img src="path/to/image3.jpg" alt="Game 3">
-                <div class="title">Game Title 3</div>
-            </div>
-            <!-- Add more game cards as needed -->
-        </div>
-    </main>
+    <div class="grid">
+        <button class="button" onclick="location.href='page1.html'">1</button>
+        <button class="button" onclick="location.href='page2.html'">2</button>
+        <button class="button" onclick="location.href='page3.html'">3</button>
+        <button class="button" onclick="location.href='page4.html'">4</button>
+        <button class="button" onclick="location.href='page5.html'">5</button>
+        <button class="button" onclick="location.href='page6.html'">6</button>
+        <button class="button" onclick="location.href='page7.html'">7</button>
+        <button class="button" onclick="location.href='page8.html'">8</button>
+        <button class="button" onclick="location.href='page9.html'">9</button>
+        <button class="button" onclick="location.href='page10.html'">10</button>
+        <button class="button" onclick="location.href='page11.html'">11</button>
+        <button class="button" onclick="location.href='page12.html'">12</button>
+        <button class="button" onclick="location.href='page13.html'">13</button>
+        <button class="button" onclick="location.href='page14.html'">14</button>
+        <button class="button" onclick="location.href='page15.html'">15</button>
+        <button class="button" onclick="location.href='page16.html'">16</button>
+    </div>
 </body>
 </html>
