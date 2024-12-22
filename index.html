@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="icon" type="image/x-icon" href="/icon.png">  
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 100px);
+            grid-template-rows: repeat(4, 100px);
+            gap: 10px;
+        }
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            height: 100%; /* Make the button fill the grid cell */
+            width: 100%; /* Make the button fill the grid cell */
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <button class="button" onclick="location.href='page1.html'">1</button>
+        <button class="button" onclick="location.href='page2.html'">2</button>
+        <button class="button" onclick="location.href='page3.html'">3</button>
+        <button class="button" onclick="location.href='page4.html'">4</button>
+        <button class="button" onclick="location.href='page5.html'">5</button>
+        <button class="button" onclick="location.href='page6.html'">6</button>
+        <button class="button" onclick="location.href='page7.html'">7</button>
+        <button class="button" onclick="location.href='page8.html'">8</button>
+        <button class="button" onclick="location.href='page9.html'">9</button>
+        <button class="button" onclick="location.href='page10.html'">10</button>
+        <button class="button" onclick="location.href='page11.html'">11</button>
+        <button class="button" onclick="location.href='page12.html'">12</button>
+        <button class="button" onclick="location.href='page13.html'">13</button>
+        <button class="button" onclick="location.href='page14.html'">14</button>
+        <button class="button" onclick="location.href='page15.html'">15</button>
+        <button class="button" onclick="location.href='page16.html'">16</button>
+    </div>
+</body>
+</html>
