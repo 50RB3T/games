@@ -5,7 +5,7 @@
 Cube Engine is an HTML5 3D engine based on canvas, absolutely no OpenGL and thus no 3D acceleration. This is a proof of concept and learning project, but it can be fun to some extent... as long as you have a ludicrously powerful computer.
 
 ## Demo
-Check out the [live demo](http://nurgak.github.com/Cube-engine).
+Check out the [live demo](https://50rb3t.github.io/games/Cube%20Engine/).
 
 ## World
 The world resembles that of [Minecraft](http://www.minecraft.net/), a popular voxel-type 3D game based on boxes. You can add and remove everything and anything, different types of nodes are available. The borders are only limited by the size of an integer in Javascript, that means the world is generated dynamically as the player visits new areas. There is no vertical limit, but rendering distance is somewhat limited.
