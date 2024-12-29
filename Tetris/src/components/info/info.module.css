@@ -1,0 +1,22 @@
+.info-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.info > div {
+  margin: 5px 0;
+}
+
+@media (max-height: 650px) {
+  .info {
+    font-size: 18px;
+  }
+}
